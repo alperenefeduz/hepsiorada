@@ -1,0 +1,39 @@
+﻿.header {
+    min-height:56px;
+    width:100%;
+    background-color:deeppink;
+    border-radius:10px;
+}
+.anaTasiyici {
+    height: 1000px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content {
+    height: 600px;
+    width: 60%;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    float:left;
+}
+.sidebar {
+    height: 600px;
+    width: 40%;
+    background-color: mediumseagreen;
+    border-radius: 10px;
+    float: left;
+}
+.twin {
+    height: 400px;
+    width: 50%;
+    background-color: orange;
+    border-radius: 10px;
+    float: left;
+}
+.footar {
+    min-height: 56px;
+    width: 100%;
+    background-color: magenta;
+    border-radius: 10px;
+}

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Secici Turleri</title>
+    <!-- Seçicileri buradaki style etiketi içerisine yazmalıyız -->
+    <style>
+        body
+        {
+            color:forestgreen;       
+        }
+        span
+        {
+            color: red;
+            font-family: Calibri;
+            font-size: 20pt;
+            text-decoration: underline;
+        }
+        a{
+            background-color:green;
+            padding:10px 25px;
+            color:white;
+        }
+        /*Sınıf Seçici*/
+        .maviyazi
+        {
+            color:blue;
+            font-weight:900; /*Yazının kalınlığını ayaralar*/
+            font-family:"Comic Sans MS"
+        }
+        .kutu
+        {background-color:orange;
+         color:white;
+         width:200px;
+         height:120px;
+         text-decoration:none !important;
+         padding:10px;
+         font-size:18pt;
+        }
+    </style>
+</head> 
+<body>
+    <h3>Satır Bazında (inline css)</h3>
+    Şuana kadar css te sürekli olarak satır bazında  css(inline css) kullandık.<br />
+    <label style="color:red">Satır bazında css </label><br />
+    satır bazında css etiket'e style ekledikten sonra css kodu eklenmesi ile yapılır.
+    <h3>Seçici Kullanımı</h3>
+    Secicileri tek tek satıra değil head etiketleri arasında style ile belirtilen css alanına yazıyoruz. Amacı her etikete ayrı ayrı css yazmayı engellemektir.
+    <h3>Etiket Secici</h3>
+    head blogundaki style etiketinin içerisine span{} yazılarak sayfadaki tüm span'lerin tamamının tek bir css kodu ile değişmesini sağlayabiliriz <br />
+    <span> Ben bir span'im</span>
+    <br />
+    css'ler etiketler üzerine eklenerek birçok seçiciden veri alması sağlanabilir. Örneğin sayfadaki tüm yazılar öncelikle  yeşil'di span'e eklenen css  ler ile body deki tüm özellikler span'e geçmişken color,font-family ve font-size değiştirldi.
+    <br />
+    <div style="height:20px"></div>
+    <a href="http://www.google.com">Google'a git</a>
+    <a href="http://www.google.com">Google'a git</a>
+    <a href="http://www.google.com">Google'a git</a>
+    <h3>Sınıf Seçiciler</h3>
+    head bloğundaki style etiketi içerisinde tamımlanan sınıflar ile istenilen tüm etiketlere ayrı ayrı uygulanabilecek css yapısıdır. <br />
+    Sınıflar "." ile başlayıp türkçe karakter kullanmadan istenilen isimde tanımlanır.<br />
+    <label class="maviyazi"> Sınıf Secici ile hazırlanan label</label><br />
+    <span class="maviyazi"> Sınıf Secici ile hazırlanan label</span><br />
+    <h1 class="maviyazi"> Sınıf Secici ile hazırlanan label</h1><br />
+    <div class="kutu">Bu div ve sınıf seçici ile oluşturulmuş kutu</div>
+    
+</body>
+</html>

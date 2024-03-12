@@ -1,0 +1,167 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC5B801A-0335-4ED6-82FC-B7472B8E137E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HtmlCssKontrolleri</RootNamespace>
+    <AssemblyName>HtmlCssKontrolleri</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44354</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Basliklar.html" />
+    <Content Include="CssKontrolleri\BoxedLayoutDuzeni.html" />
+    <Content Include="CssKontrolleri\CssNedir.html" />
+    <Content Include="CssKontrolleri\css\BoxedLayoutStyle.css" />
+    <Content Include="CssKontrolleri\css\FullLayoutStyle.css" />
+    <Content Include="CssKontrolleri\css\odev1style.css" />
+    <Content Include="CssKontrolleri\css\odev2style.css" />
+    <Content Include="CssKontrolleri\css\odev3style.css" />
+    <Content Include="CssKontrolleri\css\odev4style.css" />
+    <Content Include="CssKontrolleri\css\odev5style.css" />
+    <Content Include="CssKontrolleri\DivNedir.html" />
+    <Content Include="CssKontrolleri\FloatİleHizalamaVeDüzen.html" />
+    <Content Include="CssKontrolleri\FullLayoutDuzeni.html" />
+    <Content Include="CssKontrolleri\GenislikYukseklikveBosluk.html" />
+    <Content Include="CssKontrolleri\KenarlikKullanimi.html" />
+    <Content Include="CssKontrolleri\LayoutOlusturma.html" />
+    <Content Include="CssKontrolleri\MarginİleDisBosluk.html" />
+    <Content Include="CssKontrolleri\MetinBicimlendirme.html" />
+    <Content Include="CssKontrolleri\odev1.html" />
+    <Content Include="CssKontrolleri\odev2.html" />
+    <Content Include="CssKontrolleri\odev3.html" />
+    <Content Include="CssKontrolleri\odev4.html" />
+    <Content Include="CssKontrolleri\odev5.html" />
+    <Content Include="CssKontrolleri\PaddingİleİcBosluk.html" />
+    <Content Include="CssKontrolleri\Reklendırme.html" />
+    <Content Include="CssKontrolleri\SeciciTurleri.html" />
+    <Content Include="HepsiOrada\css\HepsiOradaStyle.css" />
+    <Content Include="HepsiOrada\Default.html" />
+    <Content Include="HepsiOrada\resimler\0604.svg" />
+    <Content Include="HepsiOrada\resimler\0605.svg" />
+    <Content Include="HepsiOrada\resimler\211766_location_icon.svg" />
+    <Content Include="HepsiOrada\resimler\326700_cart_shopping_icon %281%29.svg" />
+    <Content Include="HepsiOrada\resimler\326700_cart_shopping_icon.svg" />
+    <Content Include="HepsiOrada\resimler\4092564_profile_about_mobile_ui_user_icon.svg" />
+    <Content Include="HepsiOrada\resimler\6197450746907160444.png" />
+    <Content Include="HepsiOrada\resimler\logo-01.png" />
+    <Content Include="HtmlKontrolleri\AlintiYapma.html" />
+    <Content Include="HtmlKontrolleri\LinkOlusturma.html" />
+    <Content Include="HtmlKontrolleri\Liste Oluşturma.html" />
+    <Content Include="HtmlKontrolleri\MetinBicimlendirme.html" />
+    <Content Include="HtmlKontrolleri\odev12subat.html" />
+    <Content Include="HtmlKontrolleri\ResimEkleme.html" />
+    <Content Include="HtmlKontrolleri\resimler\WhatsApp Image 2023-04-03 at 20.49.30.jpeg" />
+    <Content Include="HtmlKontrolleri\TabloOlusturma.html" />
+    <Content Include="HtmlKontrolleri\TemelKurallar.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53003</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44354/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,173 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin:0px;padding:0px;
+}
+body {
+    font-family:Calibri;
+} 
+.anaTasiyici{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ustReklam{
+    text-align:center;
+}
+.ustReklam img{
+    width:970px;
+}
+.Ustmenu{
+    padding-top:9px;
+}
+.Ustmenu a {
+    text-decoration: none;
+    margin-left: 20px;
+    float: right;
+    color: #7b7b7b;
+    font-size: 10pt;
+    font-weight:900;
+}
+.header{
+    margin-top:25px;
+}
+.logoTasiyici{
+    width:260px;
+    float:left;
+}
+.logoTasiyici img{
+    width:191px;
+}
+.logoTasiyici label{
+    margin-left:66px;
+    color:#7b7b7b;
+}
+.logoTasiyici label a {
+    color:#FF6000;
+    text-decoration: none;
+}
+.logoTasiyici label a:hover {
+    text-decoration:underline;
+}
+.aramakutusu{
+    float:left;
+    width:440px;
+}
+.aramakutusu .metinkutu{
+    border: 2px solid #919191;
+    padding:13px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius:7px;
+    font-size:8pt;
+    width:314px;
+    margin-top:10px;
+    height:18px;
+}
+    .aramakutusu .metinkutu:focus {
+        border: 2px solid #FF6000;
+        outline:none;
+    }
+    .aramakutusu .araButton {
+        text-decoration: none;
+        padding: 8px 10px 13.4px 10px;
+        border: 2px solid #919191;
+        color: white;
+        background-color: #919191;
+        text-decoration: none;
+        font-size: 14pt;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-left: -4px;
+    }
+.araButtonFocus {
+    text-decoration: none;
+    padding: 8px 10px 13.4px 10px;
+    border: 2px solid #FF6000;
+    color: white;
+    background-color: #FF6000;
+    text-decoration: none;
+    font-size: 14pt;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: -4px;
+}
+    
+    .konumKutusu{
+        width:133px;
+        padding:10px;
+        color:#919191;
+        text-align:right;
+        float:left;
+        margin-left:20px;
+        margin-top:5px;
+
+    }
+    .konumKutusu img{
+        width:30px;
+        float:left;
+        margin-top:5px;
+    }
+    .konumKutusu .konum{
+        float:left;
+        text-align:left;
+    }
+    .konumKutusu .konum .ust{
+        font-weight:900;
+    }
+      .konumKutusu .konum .alt {
+           color:#FF6000;
+    }
+.girisSepetKutusu{
+    padding-top:20px;
+}
+.girisSepetKutusu a img {
+    width: 24px;
+    margin-bottom:-6px
+}
+.girisSepetKutusu .kullanici {
+    padding: 15px 30px;
+    border: 2px solid #919191;
+    border-radius: 10px;
+    text-decoration:none;
+    color:#919191;
+}
+    .girisSepetKutusu .Sepet {
+        padding: 15px 30px;
+        border: 2px solid #919191;
+        border-radius: 10px;
+        margin-left: 15px;
+        text-decoration: none;
+        color: white;
+        background-color:#919191;
+    }
+.gokkusagi {
+    padding: 15px 0px;
+}
+    .gokkusagi .bir{
+        background-color:#FF7600;
+        height:10px;
+        width:40%;
+        float:left;
+    }
+    .gokkusagi .iki {
+        background-color:#49C7ED;
+        height: 10px;
+        width: 15%;
+        float: left;
+    }
+    .gokkusagi .uc {
+        background-color:#7723DB;
+        height: 10px;
+        width: 15%;
+        float: left;
+    }
+    .gokkusagi .dort {
+        background-color: #57B900;
+        height: 10px;
+        width: 15%;
+        float: left;
+    }
+    .gokkusagi .bes {
+        background-color: #5D196A;
+        height: 10px;
+        width: 15%;
+        float: left;
+    }

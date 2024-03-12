@@ -1,0 +1,28 @@
+﻿body {
+}
+.anaTasiyici {
+    height:1000px;
+    width:1200px;
+    /*Ortalamak için */
+    margin-left:auto;
+    margin-right:auto;
+    /*Genişlik verilmemişse margin-left:auto, 
+        margin-right:auto; çalışmaz
+    */
+}
+.anaMenu{
+    min-height:56px;
+    background-color:cadetblue;
+}
+.yanMenu{
+    width:200px;
+    background-color:yellowgreen;
+    height:1000px;
+    float:left;
+}
+.icerik{
+    float:left;
+    width:1000px;
+    background-color:silver;
+    height:1000px;
+}

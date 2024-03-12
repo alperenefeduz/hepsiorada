@@ -1,0 +1,57 @@
+﻿body {
+}
+.anaTasiyici {
+    height: 1000px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anaMenu {
+    min-height: 100px;
+    width: 1200px;
+    background-color: cyan;
+    border-radius: 25px;
+}
+
+.yanMenu {
+    width: 200px;
+    background-color: yellow;
+    height: 700px;
+    float: left;
+    border-radius: 25px;
+}
+.orta1Menu {
+    min-height: 350px;
+    background-color: mediumaquamarine;
+    float: left;
+    width: 40%;
+    border-radius: 25px;
+}
+.orta2Menu {
+    min-height: 350px;
+    background-color: palegreen;
+    float: left;
+    width: 40%;
+    border-radius: 25px;
+}
+.orta3Menu {
+    min-height: 350px;
+    background-color:bisque;
+    float: left;
+    width: 40%;
+    border-radius: 25px;
+}
+.orta4Menu {
+    min-height: 350px;
+    background-color: olive;
+    float: left;
+    width: 40%;
+    border-radius: 25px;
+}
+.altMenu {
+    min-height: 200px;
+    width: 1200px;
+    background-color: darkcyan;
+    border-radius: 25px;
+}

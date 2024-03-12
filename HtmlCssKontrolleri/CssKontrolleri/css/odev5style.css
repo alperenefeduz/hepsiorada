@@ -1,0 +1,33 @@
+﻿body{
+}
+.ortamenu1 {
+    background-color: red;
+    height: 300px;
+}
+
+.box {
+    margin-left: 320px;
+}
+
+.UstMenu {
+    background-color: blueviolet;
+    height: 88px;
+}
+
+.ortamenu {
+    background-color: darkolivegreen;
+    height: 300px;
+}
+
+
+.AltMenu {
+    background-color: maroon;
+    height: 88px;
+}
+
+.sabitmenu1 {
+    background-color: black;
+    height: 600px;
+    width: 320px;
+    float: left;
+}

@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.anaTasiyici {
+    height: 1000px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anaMenu {
+    min-height: 100px;
+    width: 1200px;
+    background-color: cyan;
+    border-radius: 25px;
+}
+.yanMenu {
+    width: 200px;
+    background-color: yellow;
+    height: 600px;
+    float: left;
+    border-radius: 25px;
+}
+.ortaMenu {
+    min-height: 600px;
+    width: 1200px;
+    background-color: magenta;
+    border-radius: 25px;
+}
+
+.altMenu {
+    min-height: 200px;
+    width: 1200px;
+    background-color: darkcyan;
+    border-radius: 25px;
+}

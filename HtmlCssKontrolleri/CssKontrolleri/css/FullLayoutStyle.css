@@ -1,0 +1,19 @@
+﻿body {
+}
+.ustMenu
+{
+    height:56px;
+    background-color:#007fff;
+}
+.yanMenu {
+    min-height: 500px;
+    background-color: lime;
+    width:20%;
+    float:left;
+}
+.icerik {
+    width: 80%;
+    min-height: 500px;
+    background-color:#43438f;
+    float:left;
+}

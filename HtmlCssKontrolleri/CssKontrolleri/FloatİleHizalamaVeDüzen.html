@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Float ile Hizalama Ve Düzen</title>
+</head>
+<body>
+    div aksi belirtilmedikçe satır atlama eğilimindedir.
+    Sayfada Hizalma Yapmak ve yerleşim düzebi oluşturmak için float kullanılır.
+    <div style="width:150px; height:150px; background-color:mediumaquamarine"></div>
+    <div style="width:150px; height:150px; background-color:mediumorchid"></div>
+    Görüldüğü üzere float kullanılmazsa divler alt alta yer alır. Yan Yana getirmek için hizalanacak tüm divlere float uygulanmalıdır.
+    <br />
+    <div style="width:150px; height:150px; background-color:mediumaquamarine; float:left"></div>
+    <div style="width: 150px; height: 150px; background-color: mediumorchid; float: left"></div>
+    Aynı işlemi sağa hizala olarak uapabiliriz arada yazı olmasıına rağmen float uygulanan tüm divler anı satıra yerleşti bu durumu ortadan kaldırmak için float etkisini temizlememiz gerekir. bu yüzden aşağıdaki kodu ekliyoruz.
+    <div style="clear:both"></div>
+    <div style="width:150px; height:150px; background-color:mediumaquamarine; float:right"></div>
+    <div style="width: 150px; height: 150px; background-color: mediumorchid; float: right"></div>
+</body>
+</html>
